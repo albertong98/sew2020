@@ -1,14 +1,19 @@
-body {
+body { /* a = 0 ; b = 0 ; c = 1*/
       font: 400 15px Tahoma; /*Familia sans-serif*/
       line-height: 1.8;
-      color: #818181;
-  }
-h1 {
-      background-color:#FF5733; 
-      color: #fff;
+      color: #030101;
+      background-color:#9AE0CB;
+}
+h1 { /* a = 0 ; b = 0 ; c = 1*/
+      background-color:#4AA1F0; 
+      color: rgb(80, 78, 78);
       text-transform: uppercase;
       padding: 100px 25px;
       text-align: center;     
-  }
-
-
+}
+h2 { /* a = 0 ; b = 0 ; c = 1*/
+      background-color:#4AA1F0; 
+      color: rgb(80, 78, 78);
+      padding: 25px 25px;
+      text-align: left;     
+}
