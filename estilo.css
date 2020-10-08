@@ -5,15 +5,39 @@ body { /* a = 0 ; b = 0 ; c = 1*/
       background-color:#9AE0CB;
 }
 h1 { /* a = 0 ; b = 0 ; c = 1*/
-      background-color:#4AA1F0; 
+      background-color:#030101;
+      background-image: url("multimedia/terminator.jpg");
+      border-radius: 15px; 
       color: rgb(80, 78, 78);
       text-transform: uppercase;
       padding: 100px 25px;
-      text-align: center;     
+      text-align: center;
+      background-position: center;     
 }
 h2 { /* a = 0 ; b = 0 ; c = 1*/
       background-color:#4AA1F0; 
       color: rgb(80, 78, 78);
       padding: 25px 25px;
       text-align: left;     
+}
+nav {
+      background: green;
+      padding: 25px 25px;
+      border-radius: 15px;
+}
+nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}
+nav a {
+      display: block;
+      width: 2.5%;
+}
+.nav-left{
+      float: left;
+}
+.nav-left ul li{
+      float: left;
 }
