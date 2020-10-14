@@ -21,7 +21,8 @@ h2 { /* a = 0 ; b = 0 ; c = 1*/
       text-align: left;     
 }
 nav {
-      background: green;
+      background: #030101;
+      color: #fff;
       padding: 25px 25px;
       border-radius: 15px;
 }
@@ -31,13 +32,10 @@ nav ul {
       padding: 0;
       overflow: hidden;
 }
-nav a {
+nav li {
+      display: inline;
+}
+nav a{
       display: block;
-      width: 2.5%;
-}
-.nav-left{
-      float: left;
-}
-.nav-left ul li{
-      float: left;
+      padding: 5%;
 }
