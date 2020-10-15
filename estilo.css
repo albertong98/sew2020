@@ -17,8 +17,16 @@ h1 { /* a = 0 ; b = 0 ; c = 1*/
 h2 { /* a = 0 ; b = 0 ; c = 1*/
       background-color:#4AA1F0; 
       color: rgb(80, 78, 78);
-      padding: 25px 25px;
-      text-align: left;     
+      padding: 0.2% 3%;
+      text-align: left;
+      border-radius: 15px;     
+}
+article{
+      background-color:#4AA1F0;
+      border-radius: 15px; 
+}
+p{
+      padding: 0.2% 3%
 }
 nav {
       background: #030101;
@@ -35,10 +43,29 @@ nav ul {
 nav li {
       display: inline-block;
       text-align: center;
-      width: 33%;
+      width: 28%;
       padding: 1% 2%;
+      font: 400 30px Tahoma;
 }
 nav a{
       display: block;
-      font: 400 15px Tahoma;
+}
+table{
+      border-collapse: collapse;
+}
+table, th, td{
+      text-align: center;
+}
+table{
+      width: 100%;
+}
+th{
+      background-color: coral;
+      color: black;
+}
+tr:nth-child(even) {
+      background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+      background-color: #CDCDCD;
 }
