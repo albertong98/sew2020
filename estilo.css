@@ -33,9 +33,11 @@ nav ul {
       overflow: hidden;
 }
 nav li {
-      display: inline;
+      display: inline-block;
+      text-align: center;
+      width: 10%;
+      padding: 1% 2%;
 }
 nav a{
       display: block;
-      padding: 5%;
 }
