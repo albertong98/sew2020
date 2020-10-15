@@ -35,9 +35,10 @@ nav ul {
 nav li {
       display: inline-block;
       text-align: center;
-      width: 10%;
+      width: 33%;
       padding: 1% 2%;
 }
 nav a{
       display: block;
+      font: 400 15px Tahoma;
 }
