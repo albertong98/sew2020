@@ -3,8 +3,16 @@ body { /* a = 0 ; b = 0 ; c = 1*/
       line-height: 1.8;
       color: #030101;
       background-color:#9AE0CB;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
 }
-h1 { /* a = 0 ; b = 0 ; c = 1*/
+header{ /* a = 0 ; b = 0 ; c =1 */
+      grid-column: 1 / 5;
+      grid-row: 1;
+}
+h1 { /* a = 0 ; b = 0 ; c = 1 */
       background-color:#030101;
       background-image: url("multimedia/terminator.jpg");
       border-radius: 15px; 
@@ -14,62 +22,88 @@ h1 { /* a = 0 ; b = 0 ; c = 1*/
       text-align: center;
       background-position: center;     
 }
-h2,h3 { /* a = 0 ; b = 0 ; c = 1*/
+h2,h3 { /* a = 0 ; b = 0 ; c = 1 */
       color: rgb(80, 78, 78);
       padding: 0.2% 3%;
       text-align: left;     
 }
-article{
+article{ /* a = 0 ; b = 0 ; c = 1 */
       background-color:#4AA1F0;
-      border-radius: 15px; 
+      border-radius: 15px;
+      grid-column: 1 / 4;
+      grid-row: 2 / 3;
 }
-p{
+aside{
+      background-color:#4AA1F0;
+      border-radius: 15px;
+      grid-column: 4;
+      grid-row: 2 / 3;
+}
+p{ /* a = 0 ; b = 0 ; c = 1 */
       padding: 0.2% 3%
 }
-nav {
+nav { /* a = 0 ; b = 0 ; c = 1 */
       background: #030101;
       color: #fff;
       padding: 1% 1%;
       border-radius: 15px;
 }
-nav ul {
+nav ul { /* a = 0 ; b = 0 ; c = 2 */ 
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
 }
-nav li {
+nav li { /* a = 0 ; b = 0 ; c = 2 */
       display: inline-block;
       text-align: center;
       width: 28%;
       padding: 1% 2%;
       font: 400 30px Tahoma;
 }
-nav a{
+nav a{ /* a = 0 ; b = 0 ; c = 2 */
       display: block;
 }
-table{
+table{ /* a = 0 ; b = 0 ; c = 1 */
       border-collapse: collapse;
       border-radius: 15px;
+      width: 97%;
+      margin-left: auto;
+      margin-right: auto;
 }
-table, th, td{
+table, th, td{ /* a = 0 ; b = 0 ; c = 1 */
       text-align: center;
 }
-table{
-      width: 100%;
-}
-th{
+th{ /* a = 0 ; b = 0 ; c = 1 */
       background-color: coral;
       color: black;
 }
-video{
+video{ /* a = 0 ; b = 0 ; c = 1 */
       display: block;
       margin: auto;
       padding: 1.5%;
 }
-tr:nth-child(even) {
+tr:nth-child(even) { /* a = 0 ; b = 1 ; c = 1 */
       background-color: #f2f2f2;
 }
-tr:nth-child(odd) {
+tr:nth-child(odd) { /* a = 0 ; b = 1 ; c = 1 */
       background-color: #CDCDCD;
 }
+footer { /* a = 0 ; b = 0 ; c = 1 */
+      grid-column: 1 / 5;
+      grid-row: 3;
+      background-color: #393939;
+}
+footer img { /* a = 0 ; b = 0 ; c = 2 */
+      padding: 0.5%;
+}
+.full-width {/* a = 0 ; b = 1 ; c = 0*/
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      margin-bottom: -5vw;
+}
+
