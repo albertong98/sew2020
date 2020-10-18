@@ -2,7 +2,7 @@ body { /* a = 0 ; b = 0 ; c = 1*/
       font: 400 15px Tahoma; /*Familia sans-serif*/
       line-height: 1.8;
       color: #030101;
-      background-color:#9AE0CB;
+      background-color:#E5E4E4;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 10px;
@@ -14,7 +14,7 @@ header{ /* a = 0 ; b = 0 ; c =1 */
 }
 h1 { /* a = 0 ; b = 0 ; c = 1 */
       background-color:#030101;
-      background-image: url("multimedia/terminator.jpg");
+      background-image: url("multimedia/terminatorbyn.jpg");
       border-radius: 15px; 
       color: rgb(80, 78, 78);
       text-transform: uppercase;
@@ -28,16 +28,18 @@ h2,h3 { /* a = 0 ; b = 0 ; c = 1 */
       text-align: left;     
 }
 article{ /* a = 0 ; b = 0 ; c = 1 */
-      background-color:#4AA1F0;
-      border-radius: 15px;
       grid-column: 1 / 4;
       grid-row: 2 / 3;
 }
-aside{
-      background-color:#4AA1F0;
+aside{ /* a = 0 ; b = 0 ; c = 1 */
+      background-color:#030101;
+      color: #fff;
       border-radius: 15px;
       grid-column: 4;
       grid-row: 2 / 3;
+}
+aside h3{ /* a = 0 ; b = 0 ; c = 1 */
+      color: #fff;
 }
 p{ /* a = 0 ; b = 0 ; c = 1 */
       padding: 0.2% 3%
