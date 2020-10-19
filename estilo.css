@@ -59,9 +59,20 @@ nav ul { /* a = 0 ; b = 0 ; c = 2 */
 nav li { /* a = 0 ; b = 0 ; c = 2 */
       display: inline-block;
       text-align: center;
+      text-transform: uppercase;
       width: 28%;
       padding: 1% 2%;
       font: 400 30px Tahoma;
+}
+.protagonistas { /* a = 0 ; b = 1 ; c = 0 */
+      list-style-type: none;
+      padding: 0.5% 5%;
+      display: inline-block;
+}     
+.protagonistas img{ /* a = 0 ; b = 1 ; c = 1 */
+      float:left;
+      width: 240px;
+      height: 306px;
 }
 nav a{ /* a = 0 ; b = 0 ; c = 2 */
       display: block;
@@ -107,5 +118,9 @@ footer img { /* a = 0 ; b = 0 ; c = 2 */
       margin-left: -50vw;
       margin-right: -50vw;
       margin-bottom: -5vw;
+}
+video {/* a = 0 ; b = 0 ; c = 0*/
+      width: 80%   ;
+      height: auto  ; 
 }
 
