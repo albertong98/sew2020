@@ -1,0 +1,30 @@
+.protagonistas { /* a = 0 ; b = 1 ; c = 0 */
+    list-style-type: none;
+    padding: 0.5% 5%;
+    display: inline-block;
+}     
+.protagonistas img{ /* a = 0 ; b = 1 ; c = 1 */
+    float:left;
+    width: 240px;
+    height: 306px;
+}
+table{ /* a = 0 ; b = 0 ; c = 1 */
+    border-collapse: collapse;
+    border-radius: 15px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td{ /* a = 0 ; b = 0 ; c = 1 */
+    text-align: center;
+}
+th{ /* a = 0 ; b = 0 ; c = 1 */
+    background-color: #C70000;
+    color: black;
+}
+tr:nth-child(even) { /* a = 0 ; b = 1 ; c = 1 */
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd) { /* a = 0 ; b = 1 ; c = 1 */
+    background-color: #CDCDCD;
+}

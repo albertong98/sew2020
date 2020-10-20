@@ -73,49 +73,8 @@ nav li { /* a = 0 ; b = 0 ; c = 2 */
 a { /* a = 0 ; b = 0 ; c = 1 */
       color: #fff;
 }
-.protagonistas { /* a = 0 ; b = 1 ; c = 0 */
-      list-style-type: none;
-      padding: 0.5% 5%;
-      display: inline-block;
-}     
-.protagonistas img{ /* a = 0 ; b = 1 ; c = 1 */
-      float:left;
-      width: 240px;
-      height: 306px;
-}
 nav a{ /* a = 0 ; b = 0 ; c = 2 */
       display: block;
-}
-table{ /* a = 0 ; b = 0 ; c = 1 */
-      border-collapse: collapse;
-      border-radius: 15px;
-      width: 97%;
-      margin-left: auto;
-      margin-right: auto;
-}
-table, th, td{ /* a = 0 ; b = 0 ; c = 1 */
-      text-align: center;
-}
-th{ /* a = 0 ; b = 0 ; c = 1 */
-      background-color: #C70000;
-      color: black;
-}
-video{ /* a = 0 ; b = 0 ; c = 1 */
-      display: block;
-      margin: auto;
-      padding: 1.5%;
-      width: 80%;
-      height: auto;
-}
-iframe{ /* a = 0 ; b = 0 ; c = 1*/
-      display: block;
-      margin: auto;
-}
-tr:nth-child(even) { /* a = 0 ; b = 1 ; c = 1 */
-      background-color: #f2f2f2;
-}
-tr:nth-child(odd) { /* a = 0 ; b = 1 ; c = 1 */
-      background-color: #CDCDCD;
 }
 footer { /* a = 0 ; b = 0 ; c = 1 */
       grid-column-start: 1 ;
